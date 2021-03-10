@@ -25,6 +25,6 @@ enum Country {
                 return c;
             }
         }
-        throw new NoSuchCountryException("Страны " + ruName + " не существует.");
+        throw new NoSuchCountryException("Страны '" + ruName + "' не существует.");
     }
 }
