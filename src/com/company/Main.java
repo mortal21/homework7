@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Аргумент null"); // Если null, нет смысла проверять ruName
         } catch (IllegalArgumentException e) {
             ruNameCheck = true;
-            System.out.print("Наименование страны на английском введено некорректно, проверяем русское название...");
+            System.out.println("Наименование страны на английском введено некорректно, проверяем русское название...");
         }
 
         if (ruNameCheck) {
